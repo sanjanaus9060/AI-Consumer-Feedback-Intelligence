@@ -1,0 +1,16 @@
+review,rating,clean_review,sentiment
+The product is amazing and works perfectly,5,the product is amazing and works perfectly,Positive
+Excellent quality and very useful,5,excellent quality and very useful,Positive
+I really love this product,5,i really love this product,Positive
+Very good product for the price,4,very good product for the price,Positive
+The quality is good and I am satisfied,4,the quality is good and i am satisfied,Positive
+Works well but the packaging could be better,4,works well but the packaging could be better,Positive
+"The product is okay, nothing special",3,the product is okay nothing special,Neutral
+It is average and could be improved,3,it is average and could be improved,Neutral
+Not bad but not great either,3,not bad but not great either,Neutral
+The quality is poor and disappointing,2,the quality is poor and disappointing,Negative
+Battery life is terrible,2,battery life is terrible,Negative
+I am not satisfied with this product,2,i am not satisfied with this product,Negative
+"Very bad product, completely disappointed",1,very bad product completely disappointed,Negative
+"Terrible quality, waste of money",1,terrible quality waste of money,Negative
+"I hate this product, it stopped working",1,i hate this product it stopped working,Negative
