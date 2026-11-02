@@ -657,7 +657,7 @@ with st.sidebar:
 
 if page == "⌂  Overview":
 
-        st.markdown(
+    st.markdown(
         """
 <div class="hero">
     <div class="hero-badge">
