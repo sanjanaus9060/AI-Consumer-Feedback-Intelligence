@@ -657,30 +657,27 @@ with st.sidebar:
 
 if page == "⌂  Overview":
 
-    st.markdown(
+        st.markdown(
         """
-        <div class="hero">
+<div class="hero">
+    <div class="hero-badge">
+        ✦ AI-POWERED CUSTOMER INTELLIGENCE
+    </div>
 
-            <div class="hero-badge">
-                ✦ AI-POWERED CUSTOMER INTELLIGENCE
-            </div>
+    <div class="hero-title">
+        Turn customer voice into
+        <span>business intelligence.</span>
+    </div>
 
-            <div class="hero-title">
-                Turn customer voice into
-                <span>business intelligence.</span>
-            </div>
-
-            <div class="hero-description">
-                Analyze thousands of customer reviews using
-                machine learning, NLP, aspect analysis and
-                transformer-based emotion detection.
-            </div>
-
-        </div>
+    <div class="hero-description">
+        Analyze thousands of customer reviews using
+        machine learning, NLP, aspect analysis and
+        transformer-based emotion detection.
+    </div>
+</div>
         """,
         unsafe_allow_html=True
     )
-
     total = len(df_reviews)
 
     positive = (
